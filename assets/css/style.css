@@ -115,8 +115,9 @@ footer {
     border-top: 70px solid black;
     width: 100vw;
     height: auto;
-    object-fit: fill;
-    overflow: hidden;
+    object-position: top;
+    object-fit: cover;
+    /* overflow: hidden; */
 }
 
 #Project1 {
