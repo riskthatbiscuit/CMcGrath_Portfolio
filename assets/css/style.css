@@ -77,9 +77,10 @@ p {
   padding: 10px 20px;
 }
 
+a, 
 img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-position: top;
     object-fit: cover;
 }
@@ -126,6 +127,24 @@ footer {
   transform: translate(-50%, -50%);
 }
 
+.contact_details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 100px; */
+    padding: 10px 20px;
+    /* border: 1px solid red; */
+}
+
+.contact_details a {
+    text-align: center;  
+  font-size: 150%;
+    font-weight: bold;
+    text-decoration: none;
+    margin:auto;
+    /* border: 1px solid white; */
+}
+
 #avatar_image {
   width: 70px;
   height: 70px;
@@ -138,5 +157,30 @@ footer {
 }
 
 #Project1 {
-    flex-basis: 400px;
+    flex-basis: 600px;
+}
+
+@media screen and (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    height: 120px;
+    position: unset;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  .titles {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    border-right: none;
+    border-bottom: 2px solid var(--dark);
+  }
+
+  #TitleImage {
+    display: none;
+  }
 }
