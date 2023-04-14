@@ -170,6 +170,7 @@ h3 {
   font-weight: bold;
   text-decoration: none;
   margin: auto;
+    color: var(--dark)
 }
 
 #Project1 {
