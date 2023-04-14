@@ -17,6 +17,9 @@ The final contacts section contains links to LinkedIn, GitHub pages and also to 
 ## Footer
 At the bottom of the landing page is a footer that provides a note that the page was made by Casey.
 
+## Device Settings
+THe webpage is designed to change when screen size is reduced to provide a more legible format. The screen width at which this occurs is 768px.
+
 ### Technologies used
 This website was built using only HTML and CSS.
 
@@ -24,7 +27,10 @@ This website was built using only HTML and CSS.
 This website uses MIT Licence
 
 
-### Screenshot link
+### Screenshot links
+
+![Screenshot](./assets/images/Site_Full_Size.png)
+
 [Screenshot to full size site](./assets/images/Site_Full_Size.png)
 
 [Screenshot to reduced size site](./assets/images/Site_Reduced_Size.png)

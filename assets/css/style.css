@@ -35,7 +35,7 @@ header {
   color: var(--contrast1);
 }
 
-profilephoto {
+figure {
   /* Sets the profile photo container which contains photo & name */
   display: flex;
   gap: 20px;
@@ -77,7 +77,7 @@ nav a:hover {
 
 #TitleImage {
   /* Adding a border to the top of the Title Image as hidden under fixed header */
-  border-top: 70px solid black;
+  border-top: 70px solid var(--dark);
 }
 
 /* ---- CONTENT SECTION ---- */
